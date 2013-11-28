@@ -1,5 +1,4 @@
-<h1>Project Name:</h1>
-<h2><i>CSS Puzzle</i></h2>
+<h1>Project Name: <i>CSS Puzzle</i></h1>
 
 <b>Summary:</b>
 This is a way to put your coding skills to the test or learn as you go. <b>Become the best coder!</b> Initially the game will just challenge your CSS skills by asking you to draw geometry to match the example.
