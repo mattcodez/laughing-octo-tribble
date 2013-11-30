@@ -1,9 +1,16 @@
+<!DOCTYPE html>
 <html>
 <head>
+	<title>Welcome to Laughing-Octo-Tribble.com</title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.css" />
 	<link rel="stylesheet" type="text/css" href="css/vendor/codemirror/lib/codemirror.css" />
 	
 	<script type="text/javascript" src="js/vendor/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/vendor/codemirror/lib/codemirror.js"></script>
 	<script type="text/javascript" src="js/vendor/codemirror/mode/css.js"></script>
 	
@@ -12,8 +19,11 @@
 	<style id="userStyles" type="text/css"></style>
 </head>
 <body>
-	<p>Code</p>
-	<pre id="userCode" contenteditable="true">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<p>Code</p>
+				<pre id="userCode" contenteditable="true">
 #eye1 {
   width: 10px;
   height:10px;
@@ -26,18 +36,26 @@
   width: 40px;
   height: 10px;
 }
-	</pre>
-	
-	<p>Your's</p>
-	<div id="userRender">
-		<div id="eye1"></div>
-		<div id="eye2"></div>
-		<div id="mouth"></div>
-	</div>
-	
-	<p>Goal</p>
-	<div id="goal">
-		<h1>TBD</h1>
-	</div>
+				</pre>
+			</div> <!-- End column -->
+			<div class="col-lg-6">
+				<div class="row">
+					<p>Your's</p>
+					<div id="userRender">
+						<div id="eye1"></div>
+						<div id="eye2"></div>
+						<div id="mouth"></div>
+					</div>
+				</div> <!-- End row -->
+				
+				<div class="row">
+					<p>Goal</p>
+					<div id="goal">
+						<h1>TBD</h1>
+					</div>
+				</div>
+			</div> <!-- End Column -->
+		</div> <!-- End row -->
+	</div> <!-- End container -->
 </body>
 </html>
