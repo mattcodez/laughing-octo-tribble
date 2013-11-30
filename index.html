@@ -8,12 +8,10 @@
 	<script type="text/javascript" src="js/vendor/codemirror/mode/css.js"></script>
 	
 	<script type="text/javascript" src="js/main.js"></script>
-	
-	<style id="userStyles" type="text/css"></style>
 </head>
 <body>
 	<p>Code</p>
-	<pre id="userCode" contenteditable="true">
+	<pre id="userCode">
 #eye1 {
   width: 10px;
   height:10px;
@@ -28,12 +26,19 @@
 }
 	</pre>
 	
-	<p>Your's</p>
-	<div id="userRender">
-		<div id="eye1"></div>
-		<div id="eye2"></div>
-		<div id="mouth"></div>
-	</div>
+	<span>Your's</span>
+	<iframe id=userRender>
+		<html>
+		<head>
+			<style id="userStyles" type="text/css"></style>
+		</head>
+		<body>
+			<div id="eye1"></div>
+			<div id="eye2"></div>
+			<div id="mouth"></div>
+		</body>
+		</html>
+	</iframe>
 	
 	<p>Goal</p>
 	<div id="goal">

@@ -1,8 +1,7 @@
-#userCode {
+BODY > DIV.CodeMirror {
     max-width: 400px;
-    border: 1px dashed gray;
+    border: 2px dashed gray;
     height: 250px;
-    padding: 10px;
 }
 
 #userRender {

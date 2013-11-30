@@ -4,17 +4,25 @@ function init() {
     //$('#userCode').keyup(codeKeyUp);
     //codeKeyUp();
 	
-	var myCodeMirror = CodeMirror(
+	var editor = CodeMirror(
 		function(el) {
 			$('#userCode').replaceWith(el);
 		}, 
-		{value: $('#userCode').text()}
+		{
+			mode:			'css',
+			value: 			$('#userCode').text(),
+			lineNumbers:	true,
+			autofocus:		true
+		}
 	);
+	
+	editor.on('change', function(cm, change){
+		updateViewer(cm.getValue());
+	});
 }
 
-function codeKeyUp(e){
-    var cssCode = $('#userCode').text();
-    $('#userStyles').text(cssCode);
+function updateViewer(newContents){
+    $($('userRender').document).find('#userStyles').text(newContents);
 }
 
 $(init);
