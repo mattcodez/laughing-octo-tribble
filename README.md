@@ -3,6 +3,8 @@
 <b>Summary:</b>
 This is a way to put your coding skills to the test or learn as you go. <b>Become the best coder!</b> Initially the game will just challenge your CSS skills by asking you to draw geometry to match the example.
 
+<b>Secret Info:</b> https://docs.google.com/document/d/1wa9zjt1B9WrYfY4sMzHlC467LlSzShHxMQx_MRdPO48/edit
+
 <b>Potential Features:</b>
   <ul>
     <li>Player profile</li>
@@ -28,5 +30,5 @@ This is a way to put your coding skills to the test or learn as you go. <b>Becom
     <li>Text editor ( http://codemirror.net/ ) (<b>Molnar</b>)</li>
     <li>Need an app layout and design (mobile optimized) (will prolly use bootstrap) (<b>McAlear</b>)</li>
     <li>Geometry will show dimensions and positions on hover</li>
-    <li>Need a way to check user div specs vs the example<li>
+    <li>Need a way to check user div specs vs the example</li>
   </ul>
