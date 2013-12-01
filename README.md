@@ -28,8 +28,8 @@ This is a way to put your coding skills to the test or learn as you go. <b>Becom
 <b>To-Do:</b>
   <ul>
     <li>Text editor ( http://codemirror.net/ ) (<b>Molnar</b>)</li>
-    <li><s>Need an app layout and design (mobile optimized) (will prolly use bootstrap) (<b>McAlear</b>)</s></li>
-    <li><s>Create a DB for the project and make test connection (<b>McAlear</b>)</s></li>
+    <li>~~Need an app layout and design (mobile optimized) (will prolly use bootstrap) (<b>McAlear</b>)~~</li>
+    <li>~~Create a DB for the project and make test connection (<b>McAlear</b>)~~</li>
     <li>Geometry will show dimensions and positions on hover</li>
     <li>Need a way to check user div specs vs the example</li>
   </ul>
