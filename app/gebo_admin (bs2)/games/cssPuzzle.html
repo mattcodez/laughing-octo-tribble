@@ -8,12 +8,11 @@
 		<!-- CSS Puzzle -->
 		<link rel="stylesheet" type="text/css" href="../../../css/main.css" />
 		<link rel="stylesheet" type="text/css" href="../../../css/vendor/codemirror/lib/codemirror.css" />
-
 		<script type="text/javascript" src="../../../js/vendor/jquery-1.10.2.js"></script>
 		<script type="text/javascript" src="../../../js/vendor/codemirror/lib/codemirror.js"></script>
 		<script type="text/javascript" src="../../../js/vendor/codemirror/mode/css.js"></script>
-		
 		<script type="text/javascript" src="../../../js/main.js"></script>
+		<script type="text/javascript" src="../js/stopWatch.js"></script>
 		
 		<style id="userStyles" type="text/css"></style>
 		
@@ -349,20 +348,25 @@
                     <div class="row-fluid">
                         <div class="span12">
                             <h3 class="heading">CSS Puzzle</h3>
+                            <script type="text/javascript">
+                            var stopWatch = new stopWatch(0, false);
+							stopWatch.start();
+                            </script>
+                            <div id="stopWatch"></div>
                             <p>Code</p>
 							<pre id="userCode" contenteditable="true">
-						#eye1 {
-						  width: 10px;
-						  height:10px;
-						}
-						#eye2 {
-						  width: 10px;
-						  height:10px;
-						}
-						#mouth {
-						  width: 40px;
-						  height: 10px;
-						}
+#eye1 {
+  width: 10px;
+  height:10px;
+}
+#eye2 {
+  width: 10px;
+  height:10px;
+}
+#mouth {
+  width: 40px;
+  height: 10px;
+}
 							</pre>
 							
 							<p>Your's</p>
