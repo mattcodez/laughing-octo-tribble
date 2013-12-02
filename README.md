@@ -30,6 +30,7 @@ This is a way to put your coding skills to the test or learn as you go. <b>Becom
     <li>Text editor ( http://codemirror.net/ ) (<b>Molnar</b>)</li>
     <li>~~Need an app layout and design (mobile optimized) (will prolly use bootstrap) (<b>McAlear</b>)~~</li>
     <li>~~Create a DB for the project and make test connection (<b>McAlear</b>)~~</li>
+    <li>~~Create a stop watch for time challenges~~</li>
     <li>Geometry will show dimensions and positions on hover</li>
     <li>Need a way to check user div specs vs the example</li>
   </ul>
