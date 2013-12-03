@@ -345,15 +345,16 @@
                         </div>
                     </nav>
                     
-                    <div class="row-fluid">
-                        <div class="span12">
-                            <h3 class="heading">CSS Puzzle</h3>
-                            <script type="text/javascript">
-                            var stopWatch = new stopWatch(0, false);
+					<div class="container">
+                    <div class="row">
+						<div class="span6">
+							<h3 class="heading">CSS Puzzle</h3>
+							<script type="text/javascript">
+							var stopWatch = new stopWatch(0, false);
 							stopWatch.start();
-                            </script>
-                            <div id="stopWatch"></div>
-                            <p>Code</p>
+							</script>
+							<div id="stopWatch"></div>
+							<p>Code</p>
 							<pre id="userCode" contenteditable="true">
 #eye1 {
   width: 10px;
@@ -368,21 +369,32 @@
   height: 10px;
 }
 							</pre>
-							
-							<p>Your's</p>
-							<div id="userRender">
-								<div id="eye1"></div>
-								<div id="eye2"></div>
-								<div id="mouth"></div>
+						</div>
+						<div class="span6">
+							<div class="row">
+								<p>Your's</p>
+								<iframe id="userRender">
+									<html>
+									<head>
+										<style id="userStyles" type="text/css"></style>
+									</head>
+									<body>
+										<div id="eye1"></div>
+										<div id="eye2"></div>
+										<div id="mouth"></div>
+									</body>
+									</html>
+								</iframe>
 							</div>
-							
-							<p>Goal</p>
-							<div id="goal">
-								<h1>TBD</h1>
+							<div class="row">
+								<p>Goal</p>
+								<div id="goal">
+									<h1>TBD</h1>
+								</div>
 							</div>
-                        </div>
+						</div>
                     </div>
-                        
+                    </div> 
                 </div>
             </div>
             
