@@ -22,7 +22,7 @@ function init() {
 }
 
 function updateViewer(newContents){
-    $($('userRender').document).find('#userStyles').text(newContents);
+   $('#userRender')[0].contentWindow.document.getElementById('userStyles').innerText = newContents;
 }
 
 $(init);
