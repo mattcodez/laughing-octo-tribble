@@ -12,13 +12,16 @@ function init() {
 			mode:			'css',
 			value: 			$('#userCode').text(),
 			lineNumbers:	true,
-			autofocus:		true
+			autofocus:		true,
+			tabSize:		2
 		}
 	);
 	
 	editor.on('change', function(cm, change){
 		updateViewer(cm.getValue());
 	});
+	
+	CodeMirror.signal(editor, 'change', editor);
 }
 
 function updateViewer(newContents){

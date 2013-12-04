@@ -10,8 +10,13 @@ BODY > DIV.CodeMirror {
     padding: 10px;
     max-width: 380px;
     height: 200px;
+    margin: 3%;
 }
 
 #userRender div{
     background-color:black;
+}
+
+#goal{
+    margin:3%;
 }
