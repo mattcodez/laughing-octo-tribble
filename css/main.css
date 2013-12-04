@@ -8,7 +8,6 @@ BODY > DIV.CodeMirror {
     border: 2px dashed lightcoral;
     
     padding: 10px;
-    max-width: 380px;
     height: 200px;
     margin: 3%;
 }

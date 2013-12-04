@@ -1,9 +1,6 @@
 'use strict';
 
 function init() {
-    //$('#userCode').keyup(codeKeyUp);
-    //codeKeyUp();
-	
 	var editor = CodeMirror(
 		function(el) {
 			$('#userCode').replaceWith(el);
@@ -17,15 +14,35 @@ function init() {
 		}
 	);
 	
+	//Use i$ like $ but for elements in iFrame
+	var iFrameDoc = $('#userRender')[0].contentWindow.document;
+	var i$ = (function(selector){return $(iFrameDoc).find(selector);});
+	
+	var updateViewer = function(newContents){
+		i$('#userStyles').text(newContents);
+	}
+	
 	editor.on('change', function(cm, change){
 		updateViewer(cm.getValue());
 	});
 	
 	CodeMirror.signal(editor, 'change', editor);
 }
-
-function updateViewer(newContents){
-   $('#userRender')[0].contentWindow.document.getElementById('userStyles').innerText = newContents;
-}
-
 $(init);
+
+var puzzles = {
+	"css":{
+		"intro": {
+			"#eye1": {
+				"goals": {
+					"300":{
+						"left":45,
+						"top": 8
+					}
+				}
+			},
+			"#eye2": {},
+			"#mouth":{}
+		}
+	}
+};
