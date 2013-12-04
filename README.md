@@ -34,3 +34,14 @@ This is a way to put your coding skills to the test or learn as you go. <b>Becom
     <li>Geometry will show dimensions and positions on hover</li>
     <li>Need a way to check user div specs vs the example</li>
   </ul>
+  
+<b>Ways to Monetize:</b>
+  <ul>
+    <li>Easy-to-use donation and social media integration</li>
+    <li>Subscriptions for additional games and levels</li>
+    <li>Ads</li>
+    <li>Initial fee for use (buy the app)</li>
+    <li>Build simple IOS, Android, and Windows app which can be bought on the store (this would provide the key)</li>
+    <li>Allow users to buy experience or levels or features</li>
+    <li>Partner with schools to sell the idea to them (subscription)</li>
+  </ul>
