@@ -32,8 +32,9 @@
     <li>~~Need an app layout and design (mobile optimized) (will prolly use bootstrap) (<b>McAlear</b>)~~</li>
     <li>~~Create a DB for the project and make test connection (<b>McAlear</b>)~~</li>
     <li>~~Create a stop watch for time challenges (<b>McAlear</b>)~~</li>
-    <li>Geometry will show dimensions and positions on hover</li>
-    <li>Need a way to check user div specs vs the example</li>
+    <li>Build customer profile</li>
+    <li>Build customer dashboard</li>
+    <li>Build levels and sample geometry widget</li>
   </ul>
   
 <b>Ways to Monetize:</b>
