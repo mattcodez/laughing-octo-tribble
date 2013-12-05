@@ -1,6 +1,7 @@
 <h1>Project Name: <i>CSS Puzzle</i></h1>
 
 <b>Summary:</b>
+<br/>
 <b>Phase 1</b> - Teaching programming through gamification. You will progressively learn the syntax and build a resume.  
 <b>Phase 2</b> - This is a way to put your coding skills to the test. <b>Become the best coder!</b> Initially the game will just challenge your CSS skills by asking you to draw geometry to match the example.
 
