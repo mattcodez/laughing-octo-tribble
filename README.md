@@ -29,12 +29,14 @@
 <b>To-Do:</b>
   <ul>
     <li>Text editor ( http://codemirror.net/ ) (<b>Molnar</b>)</li>
-    <li>~~Need an app layout and design (mobile optimized) (will prolly use bootstrap) (<b>McAlear</b>)~~</li>
-    <li>~~Create a DB for the project and make test connection (<b>McAlear</b>)~~</li>
-    <li>~~Create a stop watch for time challenges (<b>McAlear</b>)~~</li>
+    <li>~~Build an app layout and design (mobile optimized) (will prolly use bootstrap) (<b>McAlear</b>)~~</li>
+    <li>~~Build a DB for the project and make test connection (<b>McAlear</b>)~~</li>
+    <li>~~Build a stop watch for time challenges (<b>McAlear</b>)~~</li>
     <li>Build customer profile</li>
     <li>Build customer dashboard</li>
-    <li>Build levels and sample geometry widget</li>
+    <li>Build levels (that will teach them progressively more syntax) and sample geometry widget (<b>McAlear</b>)</li>
+    <li>Build rewards, badges, and certificates (this would show their progress and represent what they've completed)</li>
+    <li>
   </ul>
   
 <b>Ways to Monetize:</b>
