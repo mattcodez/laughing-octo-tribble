@@ -8,11 +8,12 @@
 		<!-- CSS Puzzle -->
 		<link rel="stylesheet" type="text/css" href="../../../../css/main.css" />
 		<link rel="stylesheet" type="text/css" href="../../../../css/vendor/codemirror/lib/codemirror.css" />
-		<script type="text/javascript" src="../../../js/vendor/jquery-1.10.2.js"></script>
-		<script type="text/javascript" src="../../../js/vendor/codemirror/lib/codemirror.js"></script>
-		<script type="text/javascript" src="../../../js/vendor/codemirror/mode/css.js"></script>
-		<script type="text/javascript" src="../../../js/main.js"></script>
-		<script type="text/javascript" src="../js/stopWatch.js"></script>
+		<script type="text/javascript" src="../../../../js/vendor/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="../../../../js/vendor/codemirror/lib/codemirror.js"></script>
+		<script type="text/javascript" src="../../../../js/vendor/codemirror/mode/css.js"></script>
+		<script type="text/javascript" src="../../../../js/main.js"></script>
+		<script type="text/javascript" src="../../js/stopWatch.js"></script>
+		<script type="text/javascript" src="quiz_assets/levels/1.js"></script>
 		
 		<style id="userStyles" type="text/css"></style>
 		
@@ -39,7 +40,7 @@
         <!-- main styles -->
             <link rel="stylesheet" href="../../css/style.css" />
             
-            <link rel="stylesheet" href="../http://fonts.googleapis.com/css?family=PT+Sans" />
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans" />
     
         <!-- Favicon -->
             <link rel="shortcut icon" href="../../favicon.ico" />
@@ -56,7 +57,7 @@
         </script>
     </head>
     <body>
-        <div id="loading_layer" style="display:none"><img src="../img/ajax_loader.gif" alt="" /></div>
+        <div id="loading_layer" style="display:none"><img src="../../img/ajax_loader.gif" alt="" /></div>
         <div class="style_switcher">
             <div class="sepH_c">
                 <p>Colors:</p>
@@ -133,7 +134,7 @@
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Johny Smith <b class="caret"></b></a>
                                     <ul class="dropdown-menu">
                                     <li><a href="../../user_profile.html">My Profile</a></li>
-                                    <li><a href="../javascrip:void(0)">Another action</a></li>
+                                    <li><a href="javascrip:void(0)">Another action</a></li>
                                     <li class="divider"></li>
                                     <li><a href="../../login.html">Log Out</a></li>
                                     </ul>
@@ -390,8 +391,8 @@ DIV {
 							</div>
 							<div class="row">
 								<p>Goal</p>
-								<div id="goal">
-									<img src="quiz_assets/css1.png">
+								<div id="cssGeometryModel">
+									<!-- code appears here -->
 								</div>
 							</div>
 						</div>
@@ -421,7 +422,7 @@ DIV {
                                         <div class="accordion-body collapse" id="collapseOne">
                                             <div class="accordion-inner">
                                                 <ul class="nav nav-list">
-                                                    <li><a href="../games/cssPuzzle.html">CSS Puzzle</a></li>
+                                                    <li><a href="../css/puzzle.html">CSS Puzzle</a></li>
                                                     <li><a href="javascript:void(0)">SQL Puzzle</a></li>
                                                     <li><a href="javascript:void(0)">Javascript Puzzle</a></li>
                                                     <li><a href="javascript:void(0)">PHP Puzzle</a></li>
@@ -522,7 +523,7 @@ DIV {
                                                         <input type="button" class="btn btn-large" name="DoIt" value="=" onclick="Calc.Input.value = Math.round( eval(Calc.Input.value) * 1000)/1000" />
                                                         <input type="button" class="btn btn-large" name="plus" value="+" onclick="Calc.Input.value += ' + '" />
                                                     </div>
-                                                    Contributed by <a href="../http://themeforest.net/user/maumao">maumao</a>
+                                                    Contributed by <a href="http://themeforest.net/user/maumao">maumao</a>
                                                 </form>
                                             </div>
                                          </div>
@@ -570,37 +571,37 @@ DIV {
                 </div>
             </div>
             
-            <script src="../js/jquery.min.js"></script>
-            <script src="../js/jquery-migrate.min.js"></script>
+            <script src="../../js/jquery.min.js"></script>
+            <script src="../../js/jquery-migrate.min.js"></script>
             <!-- smart resize event -->
-            <script src="../js/jquery.debouncedresize.min.js"></script>
+            <script src="../../js/jquery.debouncedresize.min.js"></script>
             <!-- hidden elements width/height -->
-            <script src="../js/jquery.actual.min.js"></script>
+            <script src="../../js/jquery.actual.min.js"></script>
             <!-- js cookie plugin -->
-            <script src="../js/jquery_cookie.min.js"></script>
+            <script src="../../js/jquery_cookie.min.js"></script>
             <!-- main bootstrap js -->
-            <script src="../bootstrap/js/bootstrap.min.js"></script>
+            <script src="../../bootstrap/js/bootstrap.min.js"></script>
              <!-- bootstrap plugins -->
-            <script src="../js/bootstrap.plugins.min.js"></script>
+            <script src="../../js/bootstrap.plugins.min.js"></script>
             <!-- code prettifier -->
-            <script src="../lib/google-code-prettify/prettify.min.js"></script>
+            <script src="../../lib/google-code-prettify/prettify.min.js"></script>
             <!-- tooltips -->
-            <script src="../lib/qtip2/jquery.qtip.min.js"></script>
+            <script src="../../lib/qtip2/jquery.qtip.min.js"></script>
             <!-- jBreadcrumbs -->
-            <script src="../lib/jBreadcrumbs/js/jquery.jBreadCrumb.1.1.min.js"></script>
+            <script src="../../lib/jBreadcrumbs/js/jquery.jBreadCrumb.1.1.min.js"></script>
             <!-- sticky messages -->
-            <script src="../lib/sticky/sticky.min.js"></script>
+            <script src="../../lib/sticky/sticky.min.js"></script>
             <!-- fix for ios orientation change -->
-            <script src="../js/ios-orientationchange-fix.js"></script>
+            <script src="../../js/ios-orientationchange-fix.js"></script>
             <!-- scrollbar -->
-            <script src="../lib/antiscroll/antiscroll.js"></script>
-            <script src="../lib/antiscroll/jquery-mousewheel.js"></script>
+            <script src="../../lib/antiscroll/antiscroll.js"></script>
+            <script src="../../lib/antiscroll/jquery-mousewheel.js"></script>
             <!-- lightbox -->
-            <script src="../lib/colorbox/jquery.colorbox.min.js"></script>
+            <script src="../../lib/colorbox/jquery.colorbox.min.js"></script>
             <!-- mobile nav -->
-            <script src="../js/selectNav.js"></script>
+            <script src="../../js/selectNav.js"></script>
             <!-- common functions -->
-            <script src="../js/gebo_common.js"></script>
+            <script src="../../js/gebo_common.js"></script>
     
             <script>
                 $(document).ready(function() {
