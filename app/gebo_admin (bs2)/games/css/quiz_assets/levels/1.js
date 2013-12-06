@@ -4,7 +4,7 @@
 
 function cssGeometryModel(){
 	this.display = 'cssGeometryModel';
-	this.baseCode = 'position: absolute; background-color: black;';
+	this.baseCode = 'position: relative; background-color: black;';
 	this.code = '';
 	this.obj = {};
 	/* object structure
@@ -22,10 +22,10 @@ cssGeometryModel.prototype.buildModel = function(){
 	this.obj = {
 		name: 'box1',
 		box1: {
-			left: 10,
-			top: 10,
-			width: 50,
-			height: 50
+			left: '10px',
+			top: '10px',
+			width: '50px',
+			height: '50px'
 		}
 	}
 	
