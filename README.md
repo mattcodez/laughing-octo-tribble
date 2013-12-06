@@ -36,7 +36,6 @@
     <li>Build customer dashboard</li>
     <li>Build levels (that will teach them progressively more syntax) and sample geometry widget (<b>McAlear</b>)</li>
     <li>Build rewards, badges, and certificates (this would show their progress and represent what they've completed)</li>
-    <li>
   </ul>
   
 <b>Ways to Monetize:</b>
