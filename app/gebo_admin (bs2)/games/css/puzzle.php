@@ -385,7 +385,9 @@ DIV {
 							</div>
 							<div class="row">
 								<p>Goal</p>
+								<div id="cssInfoDisplay"></div>
 								<div id="cssGeometryModel" >
+									
 									<!-- code appears here -->
 								</div>
 							</div>
