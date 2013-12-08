@@ -13,7 +13,7 @@
 		<script type="text/javascript" src="../../../../js/vendor/codemirror/mode/css.js"></script>
 		<script type="text/javascript" src="../../../../js/main.js"></script>
 		<script type="text/javascript" src="../../js/stopWatch.js"></script>
-		<script type="text/javascript" src="quiz_assets/levels/1.js"></script>
+		<script type="text/javascript" src="quiz_assets/levels/<?php echo $_GET['level']; ?>.js"></script>
 		
 		<style id="userStyles" type="text/css"></style>
 		
@@ -325,22 +325,10 @@
                         <div id="jCrumbs" class="breadCrumb module">
                             <ul>
                                 <li>
-                                    <a href="#"><i class="icon-home"></i></a>
+                                    <a href="../../dashboard.html"><i class="icon-home"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#">Sports & Toys</a>
-                                </li>
-                                <li>
-                                    <a href="#">Toys & Hobbies</a>
-                                </li>
-                                <li>
-                                    <a href="#">Learning & Educational</a>
-                                </li>
-                                <li>
-                                    <a href="#">Astronomy & Telescopes</a>
-                                </li>
-                                <li>
-                                    Telescope 3735SX 
+                                    CSS Puzzle 
                                 </li>
                             </ul>
                         </div>
@@ -348,13 +336,18 @@
                     
 					<div class="container">
                     <div class="row">
+						<div class="span12">
+							<h3 class="heading">
+								CSS Puzzle Level <span id="levelNumber"></span>
+								<script type="text/javascript">
+								var stopWatch = new stopWatch(0, false, 20);
+								stopWatch.start();
+								</script>
+								<h4 align="center"><span id="stopWatch"></span></h4>
+								<br/>
+							</h3>
+						</div>
 						<div class="span6">
-							<h3 class="heading">CSS Puzzle</h3>
-							<script type="text/javascript">
-							var stopWatch = new stopWatch(0, false);
-							stopWatch.start();
-							</script>
-							<div id="stopWatch"></div>
 							<p>Code</p>
 							<pre id="userCode" contenteditable="true">
 DIV {
@@ -371,7 +364,8 @@ DIV {
 #mouth {
 	width: 40px;
 	height: 10px;
-}</pre>
+}
+							</pre>
 						</div>
 						<div class="span6">
 							<div class="row">
@@ -391,7 +385,7 @@ DIV {
 							</div>
 							<div class="row">
 								<p>Goal</p>
-								<div id="cssGeometryModel">
+								<div id="cssGeometryModel" >
 									<!-- code appears here -->
 								</div>
 							</div>

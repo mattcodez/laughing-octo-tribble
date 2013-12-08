@@ -4,9 +4,10 @@
 // By: 		Matt McAlear
 // Date:	12/1/13
 
-function stopWatch(start, miliseconds){
+function stopWatch(start, miliseconds, size){
 	this.currentTime = start * 1000;
 	this.interval = 1000;
+	this.size = size;
 	
 	this._miliseconds = miliseconds;
 	this._intId = null;
@@ -36,7 +37,7 @@ stopWatch.prototype.setDisplay = function(){
 	var ms= this.currentTime.toString().substr(-3);
 	var totalSeconds = this.currentTime / 1000;
 	
-	document.getElementById(this._displayId).innerHTML = '<span style="font-size: 50px;font-weight: bold;">'+h+':'+m+':'+s+'</span><span id="stopWatchTotal" style="display: none;">'+totalSeconds+'</span>';
+	document.getElementById(this._displayId).innerHTML = '<span style="font-size: '+this.size+'px;font-weight: bold;">'+h+':'+m+':'+s+'</span><span id="stopWatchTotal" style="display: none;">'+totalSeconds+'</span>';
 	if(this._miliseconds == true){
 		document.getElementById(this._displayId).innerHTML = document.getElementById(this._displayId).innerHTML + '<span style="font-size: 20px;">'+ms+'</span>';
 	}
